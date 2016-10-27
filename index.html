@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+    <meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+    <meta content="email=no" name="format-detection">
+    <title>移动Web答题系统</title>
+    <link rel="stylesheet" href="assets/css/initialization.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div id="topic-wrapper" class="topic-wrapper"></div>
+    <script src="assets/js/data.js"></script>
+    <script src="assets/js/clappr.min.js"></script>
+    <script src="assets/js/answer.js"></script>
+    <script>        
+        
+        new Answer({
+            wrap: '.topic-wrapper',
+            paper: data.paperData,
+            topics: data.topicData
+        });
+
+    </script>
+</body>
+</html>

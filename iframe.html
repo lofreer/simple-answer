@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>测试 iframe 嵌套专用</title>
+    <style>
+
+        .preview-main {
+            position: absolute;
+            left: 50%; top: 50%;
+            transform: translate(-50%,-50%);
+            width: 365px;
+            height: 639px;
+            text-align: left;
+            background: url('./assets/images/phone.png');
+            margin-top: 50px;
+        }
+        .preview-main iframe {
+            position: absolute;
+            left: 54px;
+            top: 71px;
+            width: 249px;
+            height: 440px;
+            background: #fff;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <div class="preview-main">
+        <iframe src="./index.html" frameborder="0"></iframe>
+    </div>
+</body>
+</html>

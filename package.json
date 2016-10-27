@@ -1,0 +1,12 @@
+{
+  "name": "simple-answer",
+  "version": "1.0.0",
+  "description": "'移动Web答题系统'",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
